@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.container{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    border-style: ridge;
+}
+
+
+.container .grad{
+    width: 950px;
+    height: 700px;
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 87%);
+    background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+    
+    
+}
+
+.grad{
+    
+    justify-content: space-between;
+    
+    
+
+}
+
+.menu .menu-logo{
+    float: left;
+    border-style: hidden;
+    padding-left: 1cm;
+}
+
+
+.menu .menu-logo li{
+    
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+    
+}
+
+.menu .menu-logo li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu .menu-logo li:hover {
+    background-color: #665fee;
+    transition: 0.5s;
+
+}
+
+
+.menu .menu-list{
+    float: right;
+    border-style: hidden;
+    padding-right: 1cm;
+
+}
+
+.menu .menu-list li{
+    display: inline-block;
+    padding: 20px 10px;
+    cursor: pointer;
+    
+
+}
+.menu .menu-list li:hover{
+    background-color: #27c2de;
+    transition: 0.5s;
+
+}
+
+.menu .menu-list li a{
+    text-decoration: none;
+    color: white;
+    
+    
+
+}
+
+
+
+.grad .box2{
+    float: right ;
+    border: 2px solid gray;
+    
+
+}
+
+.clr{
+    clear: both;
+}
+
+.grad .cont{
+border-style: hidden;
+width: 330px;
+height: 370px;
+border-radius: 1%;
+
+
+border-spacing: 15px;
+background-color: rgb(255, 255, 255);
+float: right;
+margin-right: 1.5cm;
+margin-top: 2cm;
+
+
+}
+
+
+.cont .text{
+    padding-top: 20px;
+    border-style:hidden;
+    justify-content: center ;
+    display: flex;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+.cont .fname{
+    border-spacing: 15px;
+    border-style:hidden;
+    justify-content: center ;
+    display: flex;
+    height: 35px;
+    margin: 10px;    
+}
+
+.email1{
+    border-style:hidden;
+    justify-content: center ;
+    display: flex;
+    height: 35px;
+    margin: 10px;
+}
+
+.email2{
+    border-style:hidden;
+    justify-content: center ;
+    display: flex;
+    height: 35px;
+    margin: 10px;
+}
+
+.type{
+    background: #f2f2f2;
+    transition: .3s all ease;
+    border-color: #f2f2f2;
+    appearance: none;
+    height: 35px;
+    width: 230px;
+    justify-content: center ;
+    display: flex;
+    
+    margin: 10px 50px;
+    
+    color: #495057;    
+    
+    border-radius: 0.25rem;
+    
+    
+}
+
+.input{
+    border-style:hidden;
+    justify-content: center ;
+    display: flex;
+    height: 35px;
+    margin: 10px;    
+    
+    
+}
+
+.grad .box3{
+
+border-style: hidden;
+width: 400px;
+height: 350px;
+border-radius: 1%;
+justify-content: end;
+border-collapse: separate;
+border-spacing: 15px;
+text-transform: none;
+float: left;
+margin-left: 1.5cm;
+margin-top: 2cm;
+
+}
+
+.grad .box3 .text1{
+    margin-top: 1.5cm;
+}
+
+.grad .box3 .text2 a{
+    text-decoration: none;
+    color: rgb(111, 180, 229);
+}
+
+.grad .box3 .button{
+    margin: 20px;
+
+    
+    
+}
