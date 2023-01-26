@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 223, 223)
+}
+
+.container{
+    width: 800px;
+    height: 450px;
+    border: hidden;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 2%;
+}
+
+.container .box1{
+    width: 350px;
+    height: 450px;
+    border: hidden;
+    background: linear-gradient(45deg, #5149ec 0%, #3779e3 100%);
+    justify-content: center;
+    border-radius: 2% 0 0 2%;
+}
+
+.container .box1 .imgs img{
+    width: 200px;
+    height: 220px;
+    margin-top: 50px;
+    border-radius: 2%;
+    
+    
+
+}
+
+.container .box1 .imgs{
+    width: 348px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.container .box1 .fullname{
+    width: 348px;
+    height: 50px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+   
+
+}
+
+.container .box1 .position{
+    width: 348px;
+    height: 50px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container .box2{
+
+    width: 550px;
+    height: 450px;
+    border: hidden;
+    background-color: white;
+    justify-content: center;
+    border-radius: 0 2% 2% 0;
+}
+
+
+.container .box2 .about{
+
+    width: 380px;
+    height: 40px;
+    color: rgb(12, 0, 83);
+    
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    
+
+}
+
+.container .box2 .contact{
+    display: flex;
+}
+
+.container .box2 .contact .email{
+
+    width: 150px;
+    height: 70px;
+    border: hidden;
+    margin-left: 30px;
+    color: rgb(12, 0, 83);;
+    border-radius: 2%;
+
+}
+
+.container .box2 .contact .phone{
+
+    width: 150px;
+    height: 70px;
+    border: hidden;
+    margin-left: 100px;
+    color: rgb(12, 0, 83);;
+    border-radius: 2%;
+
+}
+
+.container .box2 .icons{
+    width: 400px;
+   height: 90px;
+   border: hidden;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   margin-top: 70px;
+   margin-left: 20px;
+   
+
+
+}
+
+
+
+.container .box2 .icons .fb{
+   width: 60px;
+   height: 60px;
+   border: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10%;
+   background: linear-gradient(45deg, #4940ee 0%, #2c71e2 100%);
+   
+}
+
+.container .box2 .icons .inst{
+    width: 60px;
+    height: 60px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background: linear-gradient(45deg, #4940ee 0%, #2c71e2 100%);
+ }
+
+ .container .box2 .icons .twt{
+    width: 60px;
+    height: 60px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background: linear-gradient(45deg, #4940ee 0%, #2c71e2 100%);
+ }
+
+ .container .box2 .icons .yotu{
+    width: 60px;
+    height: 60px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background: linear-gradient(45deg, #4940ee 0%, #2c71e2 100%);
+ }
