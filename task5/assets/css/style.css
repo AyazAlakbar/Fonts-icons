@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(167, 169, 169);
+}
+
+
+.head{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    
+}
+
+.head a{
+    text-decoration: none;
+}
+
+.head .fullname{
+  width: 300px;
+  height: 70px;
+  border: hidden;
+  float: left;
+  color: white;
+  margin-left: 150px;
+  margin-top: 17px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color:rgb(41, 156, 110)
+  
+}
+
+.head .menu-list{
+    width: 500px;
+    height: 70px;
+    float: right;
+    border: hidden;
+    margin-right: 2cm;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.head .menu-list li{
+    display: inline-block;
+    padding: 20px 10px;
+    cursor: pointer;
+    
+}
+.head .menu-list li h3{
+    color: rgb(138, 131, 131);
+    border-right: 3px solid rgb(138, 131, 131) ;
+    
+    height: 30px;
+    width: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box2{
+    width: 80%;
+    height: 530px;
+    border: hidden;
+    margin-top: 30px;
+    margin-left: 150px;
+    display:inline-flex;
+    
+}
+
+
+
+
+
+ .box2 .about {
+    width: 800px;
+    height: 530px;
+    border: hidden;
+    
+    background-color: white;
+    
+}
+.box2 .about h1{
+    margin-top: 20px;
+    margin-left: 30px;
+    color:rgb(41, 156, 110) ;
+}
+.box2 .about hr{
+    margin: 0 20px 0 20px ;
+   
+ }
+
+ .box2 .about span{
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+  
+ .box2 .about h2{
+    margin-top: 20px;
+ }
+
+ .box2 .about p{
+    line-height: 30px;
+    margin-left: 20px;
+ }
+ .box2 .about img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.box2 .contact{
+    width: 280px;
+    height: 150px;
+    margin-left: 120px;
+    border: hidden;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.box2 .contact h2{
+    margin-top: 20px;
+    margin-left: 50px;
+    color:rgb(41, 156, 110) ;
+    justify-content: center;
+
+}
+
+
+
+.box2 .contact hr{
+    margin: 0 20px 0 20px ;
+ }
+
+ .box2 .contact .icon{
+    width: 250px;
+   height: 80px;
+   border: hidden;
+   display: flex;
+   justify-content:space-around;
+   
+   margin-top: 10px;
+   margin-left: 10px;
+   
+
+
+}
+
+ .box2 .contact .icon .ln{
+    width: 60px;
+    height: 60px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background:   #2c71e2 ;
+    
+ }
+
+ .box2 .contact .icon .git{
+    width: 60px;
+    height: 60px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background: black
+    
+ }
+
+ .box2 .contact .icon .stack{
+    width: 60px;
+    height: 60px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background: orange;
+    
+ }
+
+
+body .finish{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(121, 120, 120);
+    margin-bottom: 5px;
+    border: ridge;
+    border-top: solid 4px rgb(41, 156, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
